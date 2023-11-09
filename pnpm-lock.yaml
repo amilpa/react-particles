@@ -17,6 +17,9 @@ dependencies:
   tsparticles:
     specifier: ^2.12.0
     version: 2.12.0
+  tsparticles-preset-firefly:
+    specifier: ^2.12.0
+    version: 2.12.0
 
 devDependencies:
   '@types/react':
@@ -1950,6 +1953,14 @@ packages:
     resolution: {integrity: sha512-fbskYnaXWXivBh9KFReVCfqHdhbNQSK2T+fq2qcGEWpwtDdgujcaS1k2Q/xjZnWNMfVesik4IrqspcL51gNdSA==}
     dependencies:
       tsparticles-engine: 2.12.0
+    dev: false
+
+  /tsparticles-preset-firefly@2.12.0:
+    resolution: {integrity: sha512-F0CzOvnkR/PkznY2fMFXMDCy5SVAuALA7OUnlxhX7BeyDFDxqX2IAFces03K2gUKxvpiOigm6WxVepX5b63HIQ==}
+    dependencies:
+      tsparticles-basic: 2.12.0
+      tsparticles-engine: 2.12.0
+      tsparticles-interaction-external-trail: 2.12.0
     dev: false
 
   /tsparticles-shape-circle@2.12.0:
